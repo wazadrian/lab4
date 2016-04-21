@@ -7,3 +7,7 @@ Wiemy, że dla każdej liczby naturalnej `n` możemy znaleźć taką liczbę `
 
 #Zadanie końcowe
 Połącz oba programy tak, aby jako argument wiersza poleceń przekazywać do niego `n`, a podsumowanie poszukiwań `k` oraz wynik iloczynu wyświetlić użytkownikowi w postaci polskich liczebników.
+
+#Algorytm szukający k
+założenia: n - liczba naturalna; k - liczba naturalna; dla n = 0 k wynosi 0; dla n > 0 k powinno być większe od 0; n*k < 1000000;
+algorytm zwiększa k przy każdej iteracji sprawdzajac czy wynik składa się z samych zer i jedynek, jeżeli n * k >999999 zwracane jest zero
