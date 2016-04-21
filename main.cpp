@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 	cout << "Dla n = " << numToText(n) <<  " k = " << numToText(findK(n)) << "  n * k = " << numToText(n*findK(n)) << endl;
 	cout << endl;
 }
+
 string numToText(int N)
 {
 	string result;
@@ -24,7 +25,7 @@ string numToText(int N)
 		temp = (temp/10);
 	}
   	string T[][3]=	{
-  						{"milion","miliony","milionow"},
+  				{"milion","miliony","milionow"},
                 		{"tysiac","tysiace","tysiecy"},
                 		{"","",""}
             		};
