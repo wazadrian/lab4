@@ -54,7 +54,7 @@ string three(int s,int d, int j)
 {
 	string result;
 	string J[] = {"","jeden","dwa","trzy","cztery","piec","szesc","siedem","osiem","dziewiec","dziesiec","jedenascie","dwanascie","trzynascie","czternascie","pietnascie","szesnascie","siedemnascie","osiemnascie","dziewietnascie"};
-	string D[] = {"","","dwadziescia","trzydziesci","czterdziesci","piedziesiat","szezdziesiat","siedemdziesiat","osiemdziesiat","dziewiedziesiat"};
+	string D[] = {"","","dwadziescia","trzydziesci","czterdziesci","piedziesiat","szescdziesiat","siedemdziesiat","osiemdziesiat","dziewiedziesiat"};
 	string S[] = {"","sto","dwiescie","trzysta","czterysta","piecset","szescset","siedemset","osiemset","dziewiecset"};
 	if(s != 0)
 		result += S[s] + " ";
